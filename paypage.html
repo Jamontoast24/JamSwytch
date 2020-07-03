@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+  <link 
+  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+  <link rel="manifest" href="Favicon/site.webmanifest">
+
+  <script src="https://kit.fontawesome.com/1b88a131a4.js"
+   crossorigin="anonymous"></script>
+    <title>Thanks for your order</title>
+  </head>
+  <body>
+
+    <div class="main-container">
+        <!-- Navbar Section -->
+        <header id="home">
+          <nav class="navbar" id="navbar">
+            <!-- <button class="buy-button">Buy Now</button> -->
+            <ul class="nav-main">
+              <a href="index.html"><img src="Logos/LOGO_BLUE_HORIZONTAL.png" class="nav-logo"
+            height="106px"></a>
+            </ul>
+          </nav>
+
+          <section class="main">
+            <div class="content">
+            <h1>Thanks for your purchase. Your order will be procsessed and sent out shortly.</h1>
+            </div>
+          </section>
+        </header>
+  
+
+
+
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+  </body>
+</html>
